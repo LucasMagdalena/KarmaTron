@@ -1,0 +1,798 @@
+{	
+	
+	"intro" : [
+		"Oyez, braves gens !",
+		"Oyez, Oyez !",
+		"C'est bon ça enregistre ou bien ?",
+		"Mesdames et Messieurs !",
+		"Votre attention s'il vous plaît !",
+		"</h3>C'est ''journal'' que j'ai trouvé l'histoire qui va suivre, une authentique merveille.<h3>"
+	],
+
+	"presentation" : [
+		"Je conte l'histoire de ",
+		"Voici la légende de ",
+		"Il est temps pour nous de nous intéresser à ",
+		"Nous allons découvrir l'histoire de "
+	],
+
+	"season": 	[
+		"la printemps","l'été","l'automne","l'hiver"
+	],
+
+	"time":	{
+		"s": 	[
+			"À l'aurore", "À l'aube","Au mastin","Dans la matinée","À midi","Après-midi","Au soir","Au crépuscule","Cette nuit","Tard dans la nuit"
+		],
+		"start": 	[
+			"Lorsque le soleil se montra", "Aux petites heures du jour","Alors que la mastinée ne faisait que commencer","Vers la fin de la matinée","Lorsque le soleil fut à son zenith","Après une sieste digestive","Alors que la journée touchait à sa fin","Au coucher du soleil","Lors que la nuit enveloppait l'horizon","Dans la chaleur de la nuit"
+		]
+	},
+	
+	"wthrTypes": [
+			"soleil","nuages","pluie","tempête","neige","vent","brouillard"
+		],
+		"wthr": {
+			"soleil": {
+				"voc": ["ensoleillé", "lumineux", "rayonnant", "radieux", "doré", "chaleureux"],
+				"desc": ["Le temps était ensoleillé", "Le soleil baignait la journée", "Un beau temps lumineux", "Un ciel clair et radieux", "Une journée sous un soleil doré"],
+				"emot": "☀️😎"
+			},
+			"nuages": {
+				"voc": ["nuageux", "gris", "couvert", "sombre", "ombragé", "terne"],
+				"desc": ["Le temps était nuageux", "Un ciel gris couvrait la région", "Une journée sous un temps couvert", "Des nuages assombrissaient le ciel", "Le paysage était plongé dans une ambiance terne"],
+				"emot": "☁️🌥️"
+			},
+			"pluie": {
+				"voc": ["pluvieux", "humide", "trempé", "froid", "orageux", "mouillé"],
+				"desc": ["Le temps était pluvieux", "Les gouttes de pluie parsemaient la journée", "Un temps humide et mouillé", "Les rues étaient trempées par les averses", "Une atmosphère froide sous la pluie"],
+				"emot": "🌧️☔"
+			},
+			"tempête": {
+				"voc": ["orageux", "violent", "tonitruant", "électrique", "perturbé", "agité"],
+				"desc": ["Le temps était à la tempête", "Des éclairs illuminaient le ciel", "Un tonnerre grondant résonnait", "Les vents hurlaient sans relâche", "Une journée marquée par une violente agitation"],
+				"emot": "⛈️⚡"
+			},
+			"neige": {
+				"voc": ["enneigé", "blanc", "glacial", "polaire", "froid", "givré"],
+				"desc": ["Le temps était à la neige", "Un manteau blanc recouvrait le paysage", "Une ambiance glaciale et polaire", "Des flocons délicats tombaient du ciel", "Le paysage était transformé en une merveille hivernale"],
+				"emot": "❄️☃️"
+			},
+			"vent": {
+				"voc": ["venteux", "rafraîchissant", "rafaleux", "bourrasqueux", "agité", "soufflant"],
+				"desc": ["Le temps était venteux", "Les bourrasques animaient la journée", "Un vent soufflait en continu", "Le ciel était balayé par des rafales", "Une journée marquée par un souffle agité"],
+				"emot": "🌬️🍃"
+			},
+			"brouillard": {
+				"voc": ["brumeux", "dense", "opaque", "embrumé", "voilé", "mystérieux"],
+				"desc": ["Le temps était à la brume", "Une épaisse brume enveloppait le paysage", "Un matin marqué par une visibilité réduite", "Une ambiance voilée et mystérieuse", "Le paysage semblait disparu dans un voile opaque"],
+				"emot": "🌫️🌁"
+			}
+		},
+	
+	"biomeTypes": ["montagne","foret","plaine","toundra","ville","jungle","mer","necropole"],
+	"biom": {
+		"montagne": {
+			"loc": [
+				"la Cime des Alpes", "le Mont Ventoux", "le Mont Blanc"
+			],
+			"narr": [
+				"Les cimes se perdaient dans les nuages"
+			],
+			"wild": [
+				"un troupeau d'alpagas sauvages", "une meute de lions des montagnes", "un montagnard aviné du nom de ''mname'' °nicks°"
+			]
+		},
+		"foret": {
+			"loc": [
+				"la Forêt de Brocéliande", "la forêt domaniale des ''clan''", "la Clairière des ''clan''", "la forêt de Sierck"
+			],
+			"narr": [
+				"Les rayons du soleil filtraient sous la canopée",
+				"La mousse recouvrait d'anciennes racines",
+				"La forêt murmurait d'anciens secrets"
+			],
+			"wild": ["une meute de loups sauvages", "un ours taciturne", "une ourse et ses petits", "un ermite plus qu'agressif"]
+		},
+		"plaine": {
+			"loc": [
+				"la Beauce dorée", "la plaine vendéenne", "la Marne", "les champs de son domaine"
+			],
+			"narr": [
+				"Les herbes dorées ondulaient grâcieusement dans la plaine",
+				"Le soleil dansait sur la silhouette des troupeaux dans la plaine"
+			],
+			"wild": ["un troupeau de bisons", "une meute de coyotes hurlants", "une antilope alerte", "un groupe de civettes enragées"]
+		},
+		"toundra": {
+			"loc": [
+				"l'étendue mystérieuse des champs de l'Est", "la Toundra gelée et boueuse", "les steppes gelées", "la steppe mystérieuse"
+			],
+			"narr": [
+				"L'air mordait d'un froid brûlant", "L'étendue gelée semblait se perdre dans les pins des collines"
+			],
+			"wild": ["un vol de corbeaux sinistres", "un énorme ours polaire", "un chien-ours digne des légendes de la Steppe"]
+		},
+		"ville": {
+			"loc": [
+				"la Cité de Lumière", "la Ville des mille merveilles", "la Calanque des marchands", "la Foire royale"
+			],
+			"narr": [
+				"Les lumières de la ville dansaient telles une mer d'étoiles",
+				"Les rues sans fin fourmillaient d'activité"
+			],
+			"wild": ["un vol de pigeons déterminés à nuire", "un vol de cafards comme on n'en avait point vu depuis les temps bibliques", "une meute de chiens des rues affamés", "un rat immense et assoiffé de sang"]
+		},
+		"jungle": {
+			"loc": [
+				"les jungles de Guyane", "la jungle sauvage", "la forêt tropicale d'un pays lointain"
+			],
+			"narr": [
+				"Des pierres couvertes de mousse s'alignaient le long des ruissaux impétueux",
+				"Chacun de ses pas était accompagné d'une symphonie vivante"
+			],
+			"wild": [
+				"une bande de singes hurleurs fantasques", "un vol de toucans moqueurs", "un jaguar audacieux", "un caiman à l'affût", "un tigre monstrueux", "une panthère féroce"
+			]
+		},
+		"mer": {
+			"loc": [
+				"la Pointe du Raz", "l'île de Ré", "la côte Basque", "la Corse"
+			],
+			"narr": [
+				"Des vagues s'écrasaient sur les côtes rocheuses",
+				"La senteur du sel emplissait l'air",
+				"Les mouettes et cormorans rivalisaient dans leurs chants",
+				"L'océan étendait son azur à l'infini"
+			],
+			"wild": [
+				"un banc de requins affamés", "un calamar géant", "le véritable Kraken lui-même", "une anguille grande comme un homme"
+			]
+		},
+		"necropole": {
+			"loc": [
+				"l'intérieur des Catacombes de Paris", "la Cour des Miracles", "le père Lachaise"
+			],
+			"narr": [
+				"L'air se faisait plus froid à chaque pas", "Quelque direction que le Roy choisit, ce semblait être la mauvaise", "Il était comme piégé dans un mauvais rêve"
+			],
+			"wild": ["un fantôme °adj.mbad° venu du fond des siècles", "une succube qui surprisit leurs sens et offensa leur vertu", "un être venu d'un autre monde", "une créature éthérique"]
+		}
+	},
+
+	"eras" : ["neolithique","celtique","gallo_romaine","franque","medievale","revolutionnaire","moderne","contemporaine","future"],
+	"era": {
+		"neolithique": {
+		  "desc" : "néolithique",
+
+          "title": ["Seigneur des Pierres Levées","Maître des lames d'obsidienne","Tailleur des os sacrés"],
+		  "mname": ["Arok", "Luhar", "Narok", "Deklan", "Harok", "Gathar", "Mekan", "Olhar", "Sarnok", "Brukar", "Varnak", "Tekor"],
+		  "fname": ["Enka", "Aru", "Lokha", "Sarka", "Belar", "Hanek", "Orla", "Thila", "Runa", "Senka", "Vina", "Zorka"],
+		  "fief": ["une vallée fertile près du bassin parisien", "une caverne sacrée dans les falaises d'Étretat", "une source cristalline près du lac Léman", "une plaine de chasse autour des Pyrénées", "un bois profond dans le massif central", "une rivière sinueuse longeant la Loire", "une grotte gravée sur les parois des Gorges du Verdon", "une colline rocheuse près des Cévennes", "un lac clair dans les Vosges", "une forêt vaste couvrant la Sologne", "une gorge encaissée dans le Vercors", "un marécage brumeux autour de la Camargue"],
+		  "clan": ["les adorateurs du Cerf", "le peuple des Étoiles", "les gardiens du Feu", "les disciples de l'Ourse", "les veilleurs des Roches", "les enfants du Vent", "les héritiers de l'Aube", "les chasseurs de Brume", "le peuple des Ossements", "les tisseurs de Rêves", "les gardiens des Ombres", "les semeurs de Graines"],
+		  "nick": ["le vif", "l’audacieux", "l’habile", "l’éveillé", "le sombre", "le foudroyant", "l’ombre", "le chantant", "le doué", "l’ancien", "le voyageur", "l’errant"],
+		  "thugs": ["des chasseurs rivaux", "des ombres des bois", "des pillards affamés", "des esprits en colère", "des bêtes féroces", "un ours solitaire", "des traqueurs furtifs", "des fauves blessés", "des serpents venimeux", "des hyènes nocturnes", "des chasseurs de proies"],
+		  "loot": ["un collier de coquillages", "des pointes de silex", "des vêtements en cuir", "un totem animalier", "des perles de pierres", "des fossiles gravés", "des amulettes osseuses", "une hache en silex", "des peaux de bêtes", "des instruments primitifs", "une corne ornée", "des trophées d'animaux"],
+		  "weapons": ["une lance de silex", "un arc rudimentaire", "une hache manuelle", "un couteau d’os", "un bâton de combat", "un harpon", "une masse de bois", "un biface poli", "une flèche aiguisée", "une dague de pierre", "un gourdin gravé", "un piège de chasse"],
+		  "foods": ["un ragoût de racines", "de la viande séchée au feu", "des baies écrasées", "du poisson fumé", "un gruau de céréales sauvages", "des champignons grillés", "des noix concassées", "des lentilles bouillies", "un bouillon de tubercules", "des herbes médicinales infusées", "des fruits séchés mélangés", "un pain plat primitif"],
+		  "craze": ["les cultes animistes", "les récits mythiques des ancêtres", "les symboles gravés", "l’adoration des esprits des grottes", "les rites de passage", "les danses tribales", "le culte du feu sacré", "les peintures rupestres", "les chants collectifs", "la narration des cycles de chasse", "les récits de héros primitifs", "les rituels saisonniers"],
+		  "transport": ["à pied", "avec un traîneau rudimentaire", "sur un radeau en bois", "en pirogue", "avec des bêtes de somme", "sur des troncs flottants", "à dos de bison", "avec des porteurs", "en suivant des pistes naturelles", "avec des barques creusées", "sur des troncs traînés", "en suivant les étoiles"],
+		  "peoples": ["les Proto-Européens", "les peuples du bassin méditerranéen", "les habitants des steppes eurasiatiques"],
+		  "pet": 	["un chien sauvage apprivoisé", "un faucon domestiqué","un aigle et un serpent","un loup qui n'était plus très sauvage"],
+		  "journal": ["dans les récits gravés sur des pierres"],
+		  "cure": ["des infusions d’herbes sauvages", "des onguents de graisse animale", "des compresses de feuilles broyées"],
+		  "trades":["chasseur", "cueilleur", "faiseur d'outils", "potier", "tisserand","herboriste", "fermier", "constructeur d'abris", "pêcheur", "graveur d'os","gardien du feu", "berger"],
+		  "inn": ["la Bonne Flambasse de la mère Grunk", "la pierre des Grillades de folie", "l'étal du Vieux Blork avec ses saucisses d'onyx", "le Rhino laineux qui tousse", "le mégalithe de l'Abondance"]
+		},
+
+		"celtique": {
+			
+          "title": ["Grand druide", "Seigneur de guerre", "Fils du Ciel"],
+		  "mname": ["Ardan", "Cian", "Bran", "Eoin", "Fergus", "Lorcan", "Niall", "Padraig", "Ronan", "Seamus", "Tadhg", "Cathal"],
+		  "fname": ["Aoife", "Brigid", "Fiona", "Maeve", "Niamh", "Orla", "Róisín", "Siobhán", "Tara", "Eithne", "Aisling", "Deirdre"],
+		  "fief": 	["une colline sacrée près de Carnac", "un cercle de pierre dans les landes bretonnes", "un fort surplombant les rives du Tarn", "une forêt enchantée dans le Morvan", "une rivière argentée près de la Dordogne", "un bosquet druidique dans les Vosges", "une vallée mystérieuse proche de la Loire", "une île brumeuse en Bretagne", "un promontoire rocheux sur les falaises d'Étretat", "une clairière lumineuse dans les Cévennes", "une fortification du Mont-Saint-Michel", "un marais ancien près de la Camargue"],
+		  "clan": 	["les O'Neill", "les MacFinn", "les enfants de Danu", "les enfants des Collines", "les veilleurs des Étoiles", "les guerriers du Feu", "les gardiens du Chêne", "les fils de Lugh", "les chasseurs de Brume", "les bardes d'Innis", "les héritiers de Cúchulainn", "les druides de Tara"],
+		  "nick": 	["le téméraire", "le sage", "l’intrépide", "le rêveur", "le silencieux", "le farouche", "le lumineux", "le rusé", "le fort", "le jeune", "le vieux", "le guerrier"],
+		  "thugs": 	["une bande de pillards", "des chasseurs d’ombres", "des maraudeurs intrépides", "des éclaireurs furtifs", "des guerriers égarés", "des sorcières des bois", "des bêtes sauvages", "des créatures féroces", "un groupe de druides obscurs", "des fantômes errants", "des mercenaires avides", "des âmes damnées"],
+		  "loot": 	["une torque d’or", "des broches ornées", "un bouclier gravé", "une lance sacrée", "des bracelets d’argent", "un livre des runes", "une couronne de feuilles", "des talismans en pierre", "un coffret ancien", "des médaillons en bronze", "un parchemin enchanté", "des bijoux runiques"],
+		  "weapons": ["une épée longue", "une lance celtique", "une hache d’apparat", "un arc élancé", "un gourdin orné", "un bâton runique", "un poignard courbé", "une fronde habile", "une lame gravée", "une massue massive", "une arme enchantée", "une épée de fer"],
+		  "foods": 	["un ragoût de légumes", "de la viande rôtie aux herbes", "du pain d'orge", "des baies sauvages en compote", "du poisson grillé", "des pommes au miel", "un gâteau de noix", "des racines bouillies", "du fromage de brebis", "un porridge au lait", "des figues séchées", "un mélange de graines et céréales"],
+		  "craze": 	["les récits des bardes", "les légendes des héros celtes", "les cultes aux divinités naturelles", "les chants rituels", "les danses autour des feux sacrés", "les cérémonies druidiques", "les croyances en la réincarnation", "les rites de passage", "la poésie des guerriers", "les enseignements mystiques", "les histoires des clans", "la mythologie des étoiles"],
+		  "transport": ["à pied", "en char léger", "sur un cheval rapide", "en bateau à rame", "sur un traîneau en bois", "avec des porteurs", "à dos de cerf", "en suivant des sentiers forestiers", "avec un char décoré", "en traversant des rivières à gué", "sur une barque artisanale", "à dos de mulet"],
+		  "peoples": ["les Gaulois", "les Druides", "les Celtes bretons", "les Basques", "les Arvernes", "les Morini","les Namnetes","les Nervii","les Nantuates"],
+		  "pet": 	["un corbeau apprivoisé", "un chien", "un mâtin", "une belette de compagnie", "une ourse de compagnie peu farouche"],
+		  "journal": ["dans les récits chantés par les bardes", "dans des chroniques oubliées"],
+		  "cure": 	["des décoctions d'herbes sacrées", "des cataplasmes d'argile", "des soins par invocation druidique"],
+		  "trades":	["barde", "ovate", "champion", "tisserand", "druide", "commerçant", "marchand d'ambre", "mineur d'or", "guerrier de Guède", "joueur de cornemuse", "tailleur de menhirs", "marchand de poissons", "forgeron", "armateur certifié par Rome", "espion", "chasseur", "tailleur", "propriétaire terrien", "éleveur de bétail", "marchand de bétail", "fabriquant de savon", "chef de village", "ancien du village", "devin","précepteur","garde du village"],
+		  "inn": 	["l'auberge des Mille Voyageurs", "la buvette de la Clairière des Devins"]
+		},
+
+		"gallo_romaine": {
+			"desc" : "gallo-romaine",
+
+          "title": ["Préfet des Gaules", "Tyran de Massilia", "Sénateur de Rome"],
+		  "mname": ["Marcus", "Lucius", "Quintus", "Gaius", "Publius", "Titus", "Flavius", "Septimus", "Maximus", "Claudius", "Aulus", "Decimus"],
+		  "fname": ["Julia", "Livia", "Claudia", "Flavia", "Octavia", "Valeria", "Cornelia", "Marcia", "Helena", "Aurelia", "Sabina", "Tullia"],
+		  "fief": ["la cité prospère de Lugdunum", "la ville marchande d'Arelate", "un réseau d'amphithéâtres à Augustodunum", "une colonie importante à Burdigala", "le port de commerce de Massilia", "la capitale Lutetia", "le temple de Jupiter de Nemausus", "un aqueduc monumental à Narbo Martius", "une villa rurale à Mediolanum Santonum", "une arène spectaculaire à Vesunna", "la forteresse de Rotomagus", "un forum animé à Caesarodunum"],
+		  "clan": ["la gens Julia", "la gens Claudia", "les adeptes de Mithra", "les prêtres du culte impérial", "les marchands d'Arelate", "les patriciens de Lugdunum", "les défenseurs de la Via Domitia", "les gladiateurs de Nemausus", "les aqueduciers de Massilia", "les sénateurs de Burdigala", "les plébéiens de Lutetia", "les légionnaires de Narbo"],
+		  "nick": ["le prudent", "le valeureux", "le sage", "le fortuné", "l’impétueux", "l’éloquent", "le généreux", "le pieux", "le loyal", "l’astucieux", "le rapide", "le vigoureux"],
+		  "thugs": ["une bande de légionnaires déserteurs", "des marchands véreux et leurs tristes associés", "des gladiateurs en fuite", "des voleurs de temple", "des charlatans ambulants", "des esclaves révoltés", "des brigands de route", "des vétérans amers", "des chasseurs de primes", "des prêtres corrompus", "des contrebandiers de vin", "des espions de Rome"],
+		  "loot": ["une amphore précieuse", "des deniers d’argent", "une broche de légion", "une statuette de Jupiter", "un manuscrit sur parchemin", "une couronne de laurier", "une torche ornée", "des bijoux en or", "un médaillon d’empereur", "des sandales gravées", "une coupe en marbre", "une clé mystérieuse"],
+		  "weapons": ["un gladius aiguisé", "un pilum robuste", "une dague ornée", "une fronde habile", "un bouclier gravé", "un arc romain", "une lance de légion", "un poignard militaire", "une hache sacrée", "une épée courte", "une massue romaine", "un carnyx (trompe de guerre gauloise)"],
+		  "foods": ["du porridge d'épeautre", "du pain aux olives", "de la viande en sauce au garum", "des figues fraîches", "des lentilles mijotées", "des légumes grillés", "des galettes au fromage", "des raisins secs au miel", "des noix rôties", "des pommes au vin doux", "des dattes farcies", "du poisson fumé aux herbes"],
+		  "craze": ["des débats philosophiques stoïciens", "des prières aux dieux romains", "des célébrations de l'empereur", "des récits de la guerre des Gaules", "des spectacles de gladiateurs", "des courses de chars", "des cérémonies aux temples", "des chroniques de conquêtes", "des mythes légionnaires", "des enseignements sur la république", "des festivités dans les forums", "des légendes sur les héros de Rome"],
+		  "transport": ["en char romain", "en chariot marchand", "en galère méditerranéenne", "sur un cheval de cavalerie", "en bateau fluvial", "en litière portée", "à pied sur la Via Domitia", "avec une caravane de commerce", "en traversant des montagnes à dos de mulet", "avec des éclaireurs à pied", "sur des barques rapides", "en suivant les grandes routes pavées"],
+		  "peoples": ["les Romains", "les Gaulois romanisés", "les marchands méditerranéens"],
+		  "pet": ["un paon domestiqué","une civette °adj.fgood°","un petit éléphant de Corse","un chien de chasse","une chienne d'apparat","un âne","un sanglier de compagnie"],
+		  "journal": "dans les annales rédigées par les scribes",
+		  "cure": ["des infusions de plantes aromatiques", "des onguents à base de miel", "des bains dans des thermes"],
+		  "trades":	["traître à la solde de Rome", "joyeux collaborateur de Rome", "résistant d'Armorique","maréchal-ferrand", "légionnaire", "espion de Rome", "espion des Gaulois", "patron de foire","esclave","détenu","captif de Rome", "criminel", "voleur", "ancien du village", "marchand itinérant","garde du corps", "parieur professionnel","gladiateur","esclave évadé", "esclave émancipé", "prince Gaulois", "lanceur de javelines"],
+		  "inn":  ["la Flambée Mycénienne", "la table du père Calimandias", "l'Amphore qui tousse"]
+		},
+
+		"franque": {
+
+          "title": ["Duc des Francs", "Noble héraut du Roi", "Chevalier Franc"],
+		  "mname": ["Clovis", "Thierry", "Dagobert", "Pépin", "Charibert", "Sigebert", "Chilpéric", "Childebert", "Lothaire", "Carloman", "Clotaire", "Ebroïn"],
+		  "fname": ["Bathilde", "Bertrade", "Radegonde", "Gisela", "Ermengarde", "Clothilde", "Ingeburge", "Frédégonde", "Adèle", "Hildegarde", "Richilde", "Cunégonde"],
+		  "fief": 	["une cour royale à Paris", "une cité fortifiée à Reims", "un palais à Soissons", "une abbaye à Metz", "une capitale religieuse à Orléans", "un camp militaire à Châteaudun", "un comptoir fluvial à Strasbourg", "une résidence royale à Aix-la-Chapelle", "une basilique à Tours", "un sanctuaire à Saint-Denis", "un bastion à Verdun", "un château à Poitiers"],
+		  "clan": 	["les Mérovingiens", "les Carolingiens", "les nobles de Reims", "les évêques de Tours", "les guerriers du Rhin", "les défenseurs de Metz", "les marchands d’Orléans", "les Francs saliens", "les artisans de Soissons", "les comtes de Verdun", "les guerriers d’Aix", "les bouchers de Saint-Denis"],
+		  "nick": 	["le vaillant", "l’audacieux", "le pieux", "l’éclatant", "le sombre", "le fraternel", "le rusé", "le vif", "le loyal", "le destructeur", "le bâtisseur", "le géant"],
+		  "thugs":	["une bande de guerriers francs égarés", "des mercenaires avides", "des vagabonds affamés", "des soldats en fuite", "des clercs corrompus", "des assassins dans l’ombre", "des brigands locaux", "des envoyés de la cour", "des espions étrangers", "des voleurs de reliques", "des trafiquants d’armes", "des seigneurs déchus"],
+		  "loot": 	["une couronne d’or", "des bracelets mérovingiens", "une épée royale", "des gemmes précieuses", "un sceptre en fer", "un manuscrit religieux", "une croix ornée", "des reliques saintes", "des coffrets gravés", "un anneau de promesse", "un casque ouvragé", "un bouclier mérovingien"],
+		  "weapons":["une francisque tranchante", "un scramasaxe redoutable", "une lance d’honneur", "un bouclier de guerre", "un casque riveté", "une hache à double tranchant", "une épée forgée", "un poignard doré", "une masse destructrice", "une arbalète rustique", "un arc franque", "une javeline légère"],
+		  "foods": 	["un ragoût de viande et légumes", "du pain d'orge", "des pommes au miel", "du fromage de chèvre", "des noix grillées", "des figues séchées", "des légumes rôtis", "des céréales bouillies", "de la soupe aux lentilles", "du poisson salé", "des galettes de blé", "du lait fermenté"],
+		  "craze": 	["des récits épiques sur Clovis", "des chroniques royales", "des prières aux saints", "des chants liturgiques", "des fêtes pour les récoltes", "des rites de couronnement", "des légendes mérovingiennes", "des cérémonies dans les abbayes", "des alliances entre clans", "des récits de batailles", "des sagas sur les Carolingiens", "des contes sur les origines franques"],
+		  "transport": ["à cheval", "en chariot couvert", "sur un bateau fluvial", "à dos de mulet", "en barque à rames", "avec des bêtes de somme", "en traversant des forêts à pied", "avec un char de guerre", "en suivant les anciennes routes romaines", "à bord d’un radeau sur le Rhin", "en compagnie de caravaniers", "sur un pont improvisé"],
+		  "peoples":["les Francs", "les Mérovingiens", "les Goths"],
+		  "pet": 	["un faucon de chasse", "un chien de guerre", "un cheval royal","un serpent apprivoisé","un corbeau","une pie"],
+		  "journal":["dans les chroniques des abbés","dans les chroniques chantées de l'époque"],
+		  "cure": 	["des décoctions de plantes médicinales", "des prières dans les monastères", "des onguents à base de cire"],
+		  "trades":	["aiguiseur de haches", "pêcheur de haute mer", "faiseur de tonneaux", "joaillier","cordonnier","forgeron et armurier", "maréchal-ferrand", "meunier","paysan","cultivateur","éleveur de chevaux","mineur de charbon","mineur de fer","propriétaire de mines","marchand ambulant","médecin ambulant","prêcheur itinérant","prêtre","adorateur réprouvé des anciens Dieux","druide en fuite","descendant de patricien et riche propriétaire", "prêteur","changeur de monnaie","bûcheron","débardeur","puisatier", "devin", "missus dominicus", "garde-chasse"],
+          "inn": 	["la Joyeuse Hyperbole", "la Redoute des Stratèges", "la Demeure du Minotaure"]
+
+		},
+		"medievale": {
+			"desc" : "médiévale",
+
+          "title": ["Chevalier croisé et défenseur de la Foi", "Puissant Protecteur des humbles", "Divin Justicier et Commandant"],
+		  "mname": ["Guillaume", "Hugues", "Richard", "Philippe", "Jean", "Geoffroy", "Raymond", "Pierre", "Bertrand", "Charles", "Louis", "Thibaut"],
+		  "fname": ["Aliénor", "Isabeau", "Mathilde", "Marguerite", "Blanche", "Jeanne", "Aude", "Éléonore", "Yolande", "Adélaïde", "Agnès", "Béatrice"],
+		  "fief":	["un duché florissant à Normandie", "un château fort à Anjou", "une principauté à Orange", "un royaume en Provence", "une baronnie au Béarn", "une abbaye à Cluny", "une ville marchande à Carcassonne", "un donjon à Vincennes", "des fortifications à Lyon", "un port actif à La Rochelle", "une cathédrale majestueuse à Chartres", "une forêt mystique à Brocéliande"],
+		  "clan": 	["les Plantagenêts", "les Valois", "les Bourguignons", "les Capétiens", "les Templiers", "les Hospitaliers", "les marchands de Champagne", "les seigneurs de Montfort", "les Croisés d’Acre", "les artisans de Tours", "les bâtisseurs de cathédrales", "les chevaliers de Bretagne"],
+		  "nick": 	["le preux", "le noble", "le fidèle", "le hardi", "le fort", "le juste", "le valeureux", "l’éclairé", "le prudent", "le téméraire", "le bon", "le sage"],
+		  "thugs": 	["une bande de brigands", "des mercenaires en maraude", "des voleurs d’églises", "des déserteurs armés", "des loups des bois", "des espions anglais", "des hérétiques traqués", "des contrebandiers de sel", "des jongleurs malveillants", "des assassins furtifs", "des bandits du roi", "des chevaliers sans maître"],
+		  "loot": 	["une relique sacrée", "une épée d’apparat", "des bijoux en émail", "un calice d’or", "une bourse remplie", "un parchemin précieux", "une couronne de fleurs", "une bannière brodée", "un anneau d’acier", "un livre de prières", "des trésors cachés", "des chandeliers en argent"],
+		  "weapons":["une épée longue", "une masse hérissée", "une lance de tournoi", "un arc de guerre", "une arbalète solide", "un bouclier décoré", "une dague rapide", "un bâton renforcé", "une hache redoutable", "un fléau à chaîne", "une épée de chevalier", "une pointe de lance"],
+		  "foods":	["un ragoût de légumes et viande", "du pain noir", "des pommes cuites au miel", "du fromage affiné", "des noix fraîches", "des figues confites", "des légumes bouillis", "des céréales rôties", "de la soupe de pois", "du poisson grillé", "des galettes de blé", "du lait caillé"],
+		  "craze":	["des récits chevaleresques", "des légendes de dragons", "des chants de troubadours", "des messes solennelles", "des fêtes des moissons", "des tournois de chevalerie", "des récits sur les croisades", "des histoires sur les saints", "des cérémonies de cour", "des fresques historiques", "des alliances entre maisons", "des sagas de seigneurs"],
+		  "transport": ["à cheval", "en chariot armé", "sur un bateau marchand", "à dos de mulet", "en traversant des bois à pied", "avec une caravane de marchands", "sur une barque fluviale", "en char couvert", "sur des sentiers montagneux", "en passant par des ponts suspendus", "avec des porteurs de bagages", "en compagnie d’écuyers"],
+		  "peoples":["les chevaliers", "les seigneurs féodaux", "les paysans"],
+		  "pet":	["un chat", "un chien de garde", "un cheval de bataille", "une civette"," un faucon","un chien de guerre","un cheval de trait","un âne","une mule","un mulet","un cochon","un poulet"],
+		  "journal": ["dans les chansons de geste récitées par les troubadours","dans la geste de ''mname'' l'Ancien"],
+		  "cure":	["des décoctions d’herbes", "des potions préparées par les apothicaires", "des prières aux reliques saintes"],
+		  "trades":	["prêcheur du Christ", "pêcheur de haute mer", "faiseur de miracles", "joaillier","cordonnier","forgeron et armurier", "vigneron", "maréchal-ferrand", "meunier","paysan","cultivateur","éleveur de chevaux","mineur de charbon","mineur de fer","propriétaire de mines","marchand ambulant","médecin ambulant","prêcheur itinérant","prêtre","propriétaire agricole","tenancier de commerces","aubergiste","inquisiteur", "prêteur sur gages","changeur de monnaie","bûcheron","débardeur","puisatier", "jongleur", "troubadour","abbé","clerc de l'Église","vicaire","évêque","moine","moine copiste","enlumineur","alchimiste","charlatan","enseignant","maître d'école"],
+		  "inn": 	["la cantine du Caravanserail", "la taverne de chez Duchenot", "la Mie câline"]
+		},
+
+		"revolutionnaire": {
+			"desc" : "révolutionnaire",
+
+          "title": ["Gardien de la Révolution","Maréchal de France","Trente-troisième degré maçonnique"],
+		  "mname": ["François", "Henri", "Antoine", "Charles", "Pierre", "Jacques", "Louis", "Philippe", "René", "Jean", "Claude", "Théodore"],
+		  "fname": ["Catherine", "Anne", "Diane", "Marguerite", "Louise", "Françoise", "Éléonore", "Marie", "Jeanne", "Gabrielle", "Madeleine", "Charlotte"],
+		  "fief": ["un château somptueux à Chambord", "un palais royal aux Tuileries", "une cité commerçante à Lyon", "un port prospère à Rouen", "des vignobles renommés à Bordeaux", "une cour prestigieuse à Amboise", "un duché influent en Savoie", "des jardins élégants à Blois", "une université florissante à Paris", "une bibliothèque royale à Orléans", "une ville fortifiée à Saint-Malo", "un canal ambitieux au Midi"],
+		  "clan": ["les Valois", "les Médicis", "les savants de Blois", "les poètes de la Pléiade", "les banquiers d’Avignon", "les imprimeurs de Paris", "les bâtisseurs de cathédrales", "les marchands de La Rochelle", "les seigneurs de Bourgogne", "les humanistes d’Orléans", "les artisans de Toulouse", "les nobles de Provence"],
+		  "nick": ["le visionnaire", "le raffiné", "l’élégant", "l’ambitieux", "le généreux", "le curieux", "le talentueux", "le brillant", "le sage", "le créatif", "l’inventif", "le patient"],
+		  "thugs": ["une bande de brigands des campagnes", "des espions italiens", "des courtisans ambitieux", "des marins audacieux", "des étudiants en rupture", "des artistes en fuite", "des contrebandiers d’œuvres d’art", "des bretteurs dangereux", "des précepteurs sévères", "des théologiens corrompus", "des mercenaires suisses", "des assassins au masque"],
+		  "loot": ["un tableau de maître", "un manuscrit d’érudit", "des bijoux de la cour", "une broche en émail", "une coupe royale", "un livre de poésies", "un instrument de musique", "un astrolabe doré", "des pièces rares", "un médaillon de philosophe", "des sculptures précieuses", "un coffret à trésors"],
+		  "weapons": ["une rapière élégante", "un poignard finement décoré", "une arquebuse redoutable", "une épée de parade", "un arc italien", "une masse dorée", "un bouclier léger", "une lance de chasse", "une hache d’apparat", "une arbalète complexe", "un sabre affûté", "une dague secrète"],
+		  "foods": ["un rôti de volaille aux herbes", "des tourtes aux légumes", "des tartes aux fruits confits", "un potage de légumes", "des pâtés en croûte", "du pain blanc", "des fromages affinés", "des raisins frais", "des noix caramélisées", "du poisson en papillote", "des poires au vin rouge", "des gâteaux à la crème"],
+		  "craze": ["les idées des Lumières", "les mécénats des grands seigneurs", "les innovations en architecture", "les débats sur les réformes religieuses", "les explorations des nouvelles terres", "les avancées en astronomie", "les fresques des grands artistes", "les récitals de poésie", "les traités humanistes", "les danses de cour", "les récits sur les voyages en Amérique", "les enseignements des académies"],
+		  "transport": ["à cheval", "en carrosse somptueux", "sur un bateau à voile", "en chariot marchand", "avec une caravane d’artistes", "à pied à travers les forêts", "en galère méditerranéenne", "dans une barque ornée", "avec un équipage loyal", "en traversant des ponts magnifiquement bâtis", "sur des routes pavées", "à dos de mulet dans les montagnes"],
+		  "peoples": ["les nobles de cour", "les humanistes", "les paysans des campagnes"],
+		  "pet": ["un perroquet exotique", "un lévrier élégant", "une colombe dressée"],
+		  "journal": ["dans les mémoires des courtisans","dans les journaux de l'époque"],
+		  "cure": ["des sirops d'herbes médicinales", "des bains dans des eaux thermales", "des remèdes alchimiques"],
+		  "trades":	["marchand de canons", "pêcheur de gros", "commerçant de tulipes", "faiseur de tonneaux", "joaillier","cordonnier","forgeron", "armurier", "vigneron", "maréchal-ferrand", "meunier","paysan","cultivateur","éleveur de chevaux","mineur de charbon","mineur de fer","propriétaire de mines","marchand ambulant","médecin ambulant","docteur en médecine","grognard","syndicaliste itinérant","curé","prêteur","changeur de monnaie","bûcheron","débardeur","puisatier","ouvrier agricole","ouvrier du textile","ouvrier des manufactures royales","tribun du peuple","député de la Convention"],
+          "inn": ["la Brasserie des ferroniers", "la guinguette de chez Francis", "la Triple Buse"]
+		},
+
+		"moderne": {
+
+          "title": ["Souverain de Sang Royal","Ambassadeur de la Civilisation","Patron des Ateliers du Peuple"],
+		  "mname": ["Napoléon", "Victor", "Émile", "Alexandre", "Jules", "Louis", "Charles", "Auguste", "Maurice", "Henri", "Paul", "Léon"],
+		  "fname": ["Sophie", "Claire", "Louise", "Camille", "Julie", "Eugénie", "Adèle", "Marthe", "Marie", "Pauline", "Amélie", "Madeleine"],
+		  "fief": ["une capitale animée à Paris", "des usines industrielles à Roubaix", "des mines prospères à Saint-Étienne", "un port de commerce à Marseille", "des salons prestigieux à la Belle Époque", "une vue magnifique sur la Tour Eiffel", "des boulevards élégants à Lyon", "des vignobles raffinés à Bourgogne", "des plages célèbres en Normandie", "des quartiers vivants à Bordeaux", "des places historiques à Strasbourg", "des bibliothèques riches à Lille"],
+		  "clan": ["les Bonapartistes", "les Républicains", "les Socialistes de la Commune", "les industriels de Lyon", "les banquiers du Marais", "les artisans de Provence", "les marchands de Bordeaux", "les philosophes des Lumières", "les impressionnistes de Montmartre", "les soldats de la Grande Armée", "les savants de la Sorbonne", "les écrivains du Quartier Latin"],
+		  "nick": ["le novateur", "le rêveur", "l’audacieux", "le bâtisseur", "le pragmatique", "le réformateur", "le brillant", "le stratège", "le charmant", "le révolté", "l’idéaliste", "le moderne"],
+		  "thugs": ["une bande d’ouvriers en grève", "des militaires mécontents", "des révolutionnaires passionnés", "des philosophes subversifs", "des contrebandiers de marchandises", "des espions étrangers", "des anarchistes en fuite", "des voleurs de tableaux", "des déserteurs", "des activistes secrets", "des journalistes à scandale", "des agents doubles"],
+		  "loot": ["une montre à gousset", "une peinture impressionniste", "un roman dédicacé", "un traité politique", "un coffret en métal", "des bijoux anciens", "un carnet de dessins", "des lettres manuscrites", "des médailles militaires", "une lampe Art Nouveau", "un chapeau élégant", "une carte des chemins de fer"],
+		  "weapons": ["une baïonnette d’époque", "un fusil Gras", "un sabre brillant", "un pistolet de duel", "une épée militaire", "une hache de pompier", "une matraque", "un revolver de poche", "une bombe artisanale", "un gourdin", "un couteau de marine", "une lance de cérémonie"],
+		  "foods": ["une soupe aux légumes", "du pot-au-feu", "un plateau de fromages", "des pommes sautées", "du pain complet", "des escargots à l’ail", "des fruits au sucre", "des pâtés en croûte", "un gratin de pommes de terre", "des galettes de blé noir", "du poisson en sauce", "des vins fins"],
+		  "craze": ["les discours politiques passionnés", "les idées des Lumières revisitées", "les avancées technologiques", "les débats sur l’égalité sociale", "les récits de conquêtes napoléoniennes", "les œuvres des impressionnistes", "les conférences des philosophes", "les critiques littéraires", "les chroniques industrielles", "les salons artistiques", "les explorations scientifiques", "les théories économiques modernes"],
+		  "transport": ["en calèche", "en train à vapeur", "sur un bateau à aubes", "en ballon dirigeable", "à cheval", "avec une charrette agricole", "en traversant les montagnes à dos de mule", "en voiture automobile", "sur un tramway électrique", "en bicyclette", "à pied sur les pavés", "en bateau de plaisance"],
+		  "peoples": ["les ouvriers", "les bourgeois", "les intellectuels"],
+		  "pet": ["un chat d'appartement", "un canari chantant", "un cheval de trait"],
+		  "journal": ["dans les journaux illustrés comme Le Petit Journal"],
+		  "cure": ["des remèdes à base de plantes", "des séances d’hydrothérapie", "des potions tonifiantes aux épices"],
+		  "trades":	["spéculateur", "pêcheur de haute mer","armateur","banquier","marchand de canons", "faiseur de tonneaux", "joaillier","cordonnier","forgeron", "armurier", "maréchal-ferrand", "meunier","paysan","cultivateur","éleveur de chevaux","mineur de charbon","mineur de fer","propriétaire de mines","marchand ambulant","médecin ambulant","prêcheur itinérant","prêtre","syndicaliste itinérant","curé","prêteur","changeur de monnaie","bûcheron","débardeur","puisatier","ouvrier agricole","ouvrier du textile","ouvrier des manufactures","tribun du peuple","député","journaliste","militant anarchiste","militant socialiste","chef de la milice","agent de renseignement","comptable","expert-comptable","maître d'école","enseignant de lycée","professeur d'Université"],
+		  "inn":	["La Bonne Franquette", "La Chie-D'dans", "La marouflette cramoisie","La marmite fiérotte"]
+		},
+		 "contemporaine": {
+
+          "title": ["Grand-croix de la Légion d'Honneur","Bienfaiteur des hôpitaux de France","Grand capitaine d'industrie"],
+		  "mname": ["Nicolas", "François", "Emmanuel", "Laurent", "David", "Thomas", "Antoine", "Julien", "Patrick", "Christophe", "Philippe", "Sébastien"],
+		  "fname": ["Sandrine", "Isabelle", "Christine", "Véronique", "Florence", "Nathalie", "Audrey", "Vanessa", "Sophie", "Julie", "Claire", "Émilie"],
+		  "fief": ["un palais à l’Élysée", "des avenues prestigieuses sur les Champs-Élysées", "des cités urbaines en banlieue parisienne", "des parcs d’attractions en Île-de-France", "des quartiers d’affaires à La Défense", "des plages prisées à Cannes", "des montagnes grandioses dans les Alpes", "des vignobles renommés en Champagne", "des usines florissantes à Renault", "des studios de cinéma à Paris", "des terrains sportifs à Toulouse", "des monuments historiques à Strasbourg"],
+		  "clan": ["les politiciens de l’Élysée", "les stars de cinéma", "les chefs étoilés", "les industriels influents", "les militants écologistes", "les artistes de Montmartre", "les sportifs nationaux", "les fonctionnaires de l'État", "les créateurs de startups", "les éditeurs parisiens", "les journalistes investigateurs", "les concepteurs de mode"],
+		  "nick": ["le brillant", "le courageux", "le rationnel", "le créatif", "le génial", "le modeste", "le populaire", "le prestigieux", "le charismatique", "le révolté", "le pacifique", "le légendaire"],
+		  "thugs": ["une bande de hackers audacieux", "des lobbyistes mystérieux", "des influenceurs menaçants", "des anarchistes numériques", "des criminels financiers", "des artistes provocateurs", "des paparazzi malveillants", "des trafiquants d'informations", "des membres de sectes obscures", "des publicitaires véreux", "des candidats politiques en fuite", "des agents sous couverture"],
+		  "loot": ["un smartphone innovant", "des lunettes de réalité augmentée", "un contrat à forte valeur", "des œuvres numériques", "des bijoux haute couture", "un drone sophistiqué", "un badge VIP", "des tickets de concert", "des tableaux modernes", "une carte d’accès sécurisée", "un portefeuille électronique", "un prototype technologique"],
+		  "weapons": ["une arme à impulsion électrique", "un pistolet automatique", "un drone armé", "une bombe intelligente", "une matraque high-tech", "un couteau pliant", "un fusil de précision", "un gadget espion", "un spray paralysant", "un robot de défense", "une grenade à effet réduit", "une lance moderne"],
+		  "foods": ["des plats de cuisine fusion", "du foie gras avec chutney", "des éclairs au chocolat", "des croissants bien dorés", "des macarons délicats", "des fromages de terroir", "un plateau de fruits de mer", "des pâtisseries raffinées", "des vins millésimés", "des cocktails exotiques", "des tartares assaisonnés", "des galettes bretonnes"],
+		  "craze": ["des débats sur le changement climatique", "des avancées technologiques révolutionnaires", "des séries télévisées captivantes", "des compétitions sportives internationales", "des créations artistiques innovantes", "des performances musicales spectaculaires", "des théories politiques modernes", "des discours sur la diversité culturelle", "des récits sur les succès entrepreneuriaux", "des critiques cinématographiques", "des recherches scientifiques de pointe", "des tendances sur les réseaux sociaux"],
+		  "transport": ["en voiture électrique", "en train grande vitesse", "sur un vélo urbain", "en avion commercial", "en métro automatique", "sur une trottinette électrique", "en traversant des ponts modernes", "en taxi autonome", "à pied dans des rues pavées", "en bateau de plaisance", "sur une route panoramique", "dans des tunnels sous-marins"],
+		  "peoples": ["les ingénieurs", "les artistes", "les activistes"],
+		  "pet": ["un chat de race rare", "un perroquet parlant", "un chien guide"],
+		  "journal": ["dans les colonnes du Monde"],
+		  "cure": ["des traitements avancés en médecine moderne", "des thérapies naturelles avec plantes", "des séances de relaxation guidée"],
+		  "trades":	["spéculateur", "pêcheur en haute mer","armateur","banquier","représentant de commerce", "directeur marketing","designer", "joaillier","cordonnier","peintre en bâtiment", "couvreur-zingueur", "mécanicien", "directeur des achats","paysan","agronome","éleveur de bovins","outsourcing specialist","chauffeur routier","agent immobilier","caissier","médecin généraliste","charlatan quantique","influenceur","politicien","policier","agent de recouvrement","trader ForEx","spécialiste de l'aménagement et de la gestion durable des espaces forestiers","capitaine de navire","cuisinier","ouvrier agricole","ouvrier du textile","ouvrier spécialisé","ouvrier qualifié","député","journaliste","militant de gauche","militant socialiste","milicien","agent de renseignement","comptable","expert-comptable","instituteur","enseignant de lycée","professeur d'Université"],
+		  "inn":	["Central Perk","l'Autre Rivière","l'Auberge Rouge","la Colline du Crack"]
+		},
+
+		"future": {
+
+          "title": ["Gardien Suprême de la Frontière Digitale","Seigneur des Ambitions Interstellaires"],
+		  "mname": ["Axiom", "Nova", "Zenith", "Orion", "Cypher", "Atlas", "Eon", "Quantum", "Kael", "Lyric", "Ardent", "Solar"],
+		  "fname": ["Astra", "Vega", "Lumina", "Iris", "Elara", "Nyx", "Aether", "Echo", "Lys", "Zephyr", "Ciel", "Seren"],
+		  "fief": ["une station orbitale près de Titan", "une ville sous-marine dans l'océan Atlantique", "un habitat martien sur Valles Marineris", "un spatioport intergalactique sur Ganymède", "un dôme lunaire à la mer de la Tranquillité", "une cité climatique au Sahara", "un réseau de satellites autour de la Terre", "un laboratoire de recherche avancée sur Europa", "une zone terraformée sur Mars", "une colonie en expansion sur Cérès", "une base interstellaire à Alpha Centauri", "un centre cybernétique dans le nuage d'Oort"],
+		  "clan": ["les pionniers de Mars", "les ingénieurs de Saturne", "les explorateurs de Titan", "les chercheurs d'Elara", "les gardiens de la Lune", "les développeurs d'intelligence artificielle", "les architectes des étoiles", "les sentinelles de la galaxie", "les cartographes cosmiques", "les bâtisseurs de mondes", "les diplomates intergalactiques", "les éthiciens de l'univers"],
+		  "nick": ["le visionnaire", "le futuriste", "l’intellectuel", "l’explorateur", "le créateur", "le pacifiste", "le stratège", "le rêveur", "le gardien", "l’innovateur", "l’audacieux", "le mystique"],
+		  "thugs": ["une bande de pirates stellaires", "des contrebandiers d’énergie", "des rebelles lunaires", "des dissidents de Mars", "des intelligences artificielles corrompues", "des clones en rupture", "des trafiquants de données", "des voleurs de technologie", "des mercenaires galactiques", "des expérimentateurs illégaux", "des chercheurs désespérés", "des robots fugitifs"],
+		  "loot": ["un cristal énergétique", "une carte stellaire", "un module avancé", "une combinaison spatiale", "un artefact alien", "un générateur d'antigravité", "une puce neuronale", "un drone autonome", "une clé quantique", "une sphère holographique", "un brevet révolutionnaire", "un appareil terraformant"],
+		  "weapons": ["un canon à plasma", "une épée énergétique", "un pistolet à impulsion", "un sabre laser", "une grenade gravitationnelle", "un exosquelette offensif", "un arc à particules", "une arme cybernétique", "un drone armé", "une arme à fusion", "une tourelle automatisée", "un bâton stellaire"],
+		  "foods": ["un repas nutritif en tablette", "des fruits cultivés en hydroponie", "du poisson synthétique", "un mélange de céréales enrichies", "des plats en poudre réhydratée", "des biscuits énergétiques", "une soupe déshydratée", "des algues climatisées", "des légumes bioluminescents", "des grains stellaires", "des champignons terraformés", "des boissons isotoniques"],
+		  "craze": ["des explorations interstellaires", "des récits sur les civilisations extraterrestres", "des recherches sur l'énergie noire", "des découvertes dans les trous de ver", "des débats éthiques sur les clones", "des innovations en cybernétique", "des collaborations intergalactiques", "des enseignements sur les galaxies", "des légendes sur les pionniers martiens", "des avancées dans la biotechnologie", "des théories sur les voyages temporels", "des fêtes célébrant l'expansion humaine"],
+		  "transport": ["en vaisseau spatial", "dans une navette orbitale", "à bord d’un module lunaire", "en cargo intergalactique", "sur une moto gravitationnelle", "en utilisant des ascenseurs spatiaux", "à bord d’une capsule autonome", "dans un méga-transporteur stellaire", "avec un véhicule martien", "sur des rails magnétiques", "en navette interplanétaire", "par téléportation expérimentale"],
+		  "peoples": ["les humains terraformés", "les colons interstellaires", "les intelligences artificielles évoluées"],
+		  "pet": ["un drone compagnon", "un chat génétiquement modifié", "une créature alien apprivoisée"],
+		  "journal": ["dans les rapports galactiques diffusés par les IA"],
+		  "cure": ["des injections de nanobots médicaux", "des chambres de régénération", "des remèdes biotechnologiques avancés"],
+		  "trades":	["spéculateur", "pêcheur en haute mer","armateur","banquier","représentant de commerce", "directeur marketing","designer", "joaillier","cordonnier","peintre en bâtiment", "couvreur-zingueur", "mécanicien", "directeur des achats","paysan","agronome","éleveur de bovins","outsourcing specialist","chauffeur routier","agent immobilier","caissier","médecin généraliste","charlatan quantique","influenceur","politicien","policier","agent de recouvrement","trader ForEx","spécialiste de l'aménagement et de la gestion durable des espaces forestiers","capitaine de navire","cuisinier","ouvrier agricole","ouvrier du textile","ouvrier spécialisé","ouvrier qualifié","député","journaliste","militant de gauche","militant socialiste","milicien","agent de renseignement","comptable","expert-comptable","instituteur","enseignant de lycée","professeur d'Université"],
+		  "inn":  ["la Lueur stellaire", "la Cantina de l'espace"]
+		}
+	  },
+
+	"emoTypes":	["espoir","oubli","nostalgie","colere"],
+	"emot": {
+		"espoir": [
+			"espérait",
+			"souhaitait",
+			"rêvait de",
+			"désirait",
+			"avait absolument besoin de"
+		],
+		"oubli": [
+			"oubliait",
+			"perdait espoir de revoir"
+		],
+		"nostalgie": [
+			"se souvenait de",
+			"se rappelait",
+			"rêvassait du bon vieux temps avec"
+		],
+		"colere": [
+			"ne décolérait pas au sujet de",
+			"ne parvenait pas à pardonner",
+			"en voulait à"
+		]
+	},
+
+	"nicks": [
+		"le Débile", "le Radin", "le Fourbe", "le Soupçonneur", "le Sapologue", "le Christ Cosmique", "le Grand Monarque", "de la Constellation ElVita", "le Bien Foutu", "le Gosse-Beau", "n'a-qu'un-œil", "le Dégenérable", "le Craquelin", "la Saumure", "la Faisande", "la Manoucherie", "la Truande", "fils de mortaise", "fils de Caribou", "l'Enfant de ses morts", "de la chair de ses morts", "tout foudide", "tout pourri", "le Laideron", "le Partouzeur", "le Mange-Étrons", "le Mange-Crottes", "le Mange-Boudin", "de la Jacquette", "le Hardi", "la Fripouille",
+		"le Porc", "le Court", "le Bref", "le Sinistre", "le Tourmenteur", "le Tourmenté", "le Grotesque", "le Grumeleux", "le Foutraque", "le Bilboquet", "le Boîteux", "le Sévère", "le Grand", "le Superbe", "Casse-Noisettes", "Mange-mère", "Mange-Craquelin", "dit Jean-Jean", "dit Du Dit du Didit", "le Dérangé", "le Terrible", "le Séquentiel", "la Perlouze", "la Grattouille", "la Mouscaille", "la Cambuse", "la Binette", "le Demeuré", "le Craintif", "le Chétif", "le Mal-Barré", "le Bras-Cassé", "le Déviant", "la Mortadelle", "le Somptuaire", "l'Embrouille", "le Masochiste", "le Sadique", "le Dégénéré",
+		"le Fuligineux", "le Prodigieux", "fils de chèvre", "fils de narval", "fils de pruneau","le Déculotté", "le Dégingandé", "le Superflu", "le Superfétatoire", "le Gravissime", "le Replet", "le Farouche", "le Tarabiscoté","le Taraudeur", "le Papouilleur", "le Papouillot", "la Papouilette", "« la Gadouille »", "« El Especial »", "le Cacatoès", "le Parfait", "le Sage", "le Bucolique", "le Carabiné", "le Calisthénique", "le Skibidi", "face de raie", "face de porc", "face de con", "Croque-Mitaines", "le Boîteux", "le Misérable","du Bocage", "de la Chair de ses Grands Morts", "du Saint-Sépulcre", "du Barry", "de la Mortadaise"
+	],
+
+	"n": {
+		"legends": [
+		"Pout-de-Larde", "Haut-Gwartz", "Champ Grilat", "Eldeaux-Radeaux", "Shambhallat", "Akashat", "Bugues-Harrache", 
+		"Ankh-Morpocques", "Chauld-Linne", "Yeaster Egge Ysland", "the Chad Islands", "Isla Gomera", "Cheh", "Zindindan", 
+		"Tunder-Ten-Tronck", "Untopia", "Lutetiu", "Lugdunu", "Alesiu", "Gergovix", "Lilipont", "the Rubicon", "Bouderballa", 
+		"Motordu", "the Flowery Crater", "the Under-Souk", "the Sunken Realm", "the Under-Realm", "the Webbe-Way", 
+		"Bull Sanctuary", "Eagle Sanctuary", "Lion Sanctuary", "Serpent Sanctuary", "Altedorf", "Qarrassacaraques", 
+		"the Disque Worlde", "Vale Heime", "Hyboria", "the Hollow Earth", "Karasakarouk", "Nornio", "the Priory of Sion", "Pariu", "Lyot", "Marsaga", "Paca", "Chnorr", "Grand-Este", "Pyrunu", "Alps", 
+		"Old Invasion Site", "Ruined Island"
+		],
+
+		"roi" : ["souverain", "roi", "chef", "dirigeant", "héros"],
+
+		"omens": [
+		"Que la chance t'accompagne, Grand °n.roi° !",
+		"Tous ces ''clan'' venus des ''fief'' entourés de #wild# ne présagent rien de bon !",
+		"Quel sera ton destin ? Infamie ou Ridicule ?",
+		"Je sais pas vous mais, j'ai vu #wild# de ''fief'' et ça sent pas bon !",
+		"Je vais pas vous cacher que les osselets sentent un peu le °adj.mbad° !",
+		"Tu devrais écouter le peuple ou il t'arrivera des bricoles, roi °adj.mbad° et °adj.mbad° !",
+		"Le peuple est °adj.mbad° mais, tout en étant °adj.mbad° et °adj.mbad° autant que °adj.mbad°, il revient au °n.roi° de les éduquer!"
+		],
+		"atrocities": [
+		"des atrocités",
+		"des abominations",
+		"des horreurs",
+		"des barbaries",
+		"des ignominies",
+		"des dévastations",
+		"des cruautés",
+		"des tragédies"
+		],
+		"battle": [
+		"un combat",
+		"un duel",
+		"un affrontement",
+		"un siège",
+		"un conflit",
+		"un assaut",
+		"un engagement",
+		"un corps-à-corps"
+		],
+		"city": [
+		"une ville",
+		"une cité",
+		"la capitale",
+		"une agglomération",
+		"une métropole",
+		"une localité",
+		"une commune",
+		"une municipalité"
+		],
+		"crime": [
+		"des crimes",
+		"des délits",
+		"des forfaits",
+		"des méfaits",
+		"des actes illicites",
+		"des scandales",
+		"des vols",
+		"des brigandages"
+		],
+		"crush": [
+		"un amour",
+		"un béguin",
+		"un coup de foudre",
+		"un rendez-vous",
+		"un flirt",
+		"un désir",
+		"un attrait",
+		"un engouement"
+		],
+		"dish": [
+		"un plat",
+		"un mets",
+		"un pot-au-feu",
+		"un ragoût",
+		"un bouillon",
+		"un mijoté",
+		"un gratin",
+		"un plat du terroir"
+		],
+		"drink": [
+		"un verre",
+		"un pichet",
+		"un breuvage",
+		"un cru",
+		"un cidre",
+		"un hydromel",
+		"un vin",
+		"un nectar"
+		],
+		"fief": [
+		"un fief",
+		"un domaine seigneurial",
+		"un château-fief",
+		"un bastion",
+		"un manoir",
+		"un territoire",
+		"un domaine ancestral",
+		"un comté"
+		],
+		"foes": [
+		"ses ennemis",
+		"ses adversaires",
+		"ses opposants",
+		"ses rivaux",
+		"ses antagonistes",
+		"ses concurrents",
+		"les hostiles"
+		],
+		"herd": [
+		"un troupeau de moutons",
+		"un troupeau de vaches",
+		"un troupeau de chevaux",
+		"un troupeau d'animaux",
+		"un groupe d'animaux",
+		"un rassemblement d'animaux",
+		"un troupeau de bétail",
+		"un pâturage d'animaux",
+		"un cortège d'animaux"
+		],
+		"home": [
+		"un foyer",
+		"un logis",
+		"un domicile",
+		"un chez-soi",
+		"un refuge",
+		"un abri",
+		"un havre",
+		"un gîte"
+		],
+		"horse": [
+		"un cheval",
+		"un destrier",
+		"un coursier",
+		"un étalon",
+		"un hongre",
+		"un poney",
+		"un équidé",
+		"un cheval de trait",
+		"un cheval de course"
+		],
+		"ingred": [
+		"tomate",
+		"oignon",
+		"ail",
+		"poivre",
+		"sel",
+		"basilic",
+		"romarin",
+		"thym",
+		"persil",
+		"citron",
+		"carotte",
+		"pomme de terre",
+		"courgette",
+		"aubergine",
+		"poivron",
+		"cumin",
+		"coriandre",
+		"origan",
+		"estragon",
+		"laurier",
+		"aneth",
+		"gingembre",
+		"cannelle",
+		"clou de girofle",
+		"noix de muscade",
+		"vanille",
+		"moutarde",
+		"safran",
+		"riz",
+		"huile d'olive"
+		],
+		"journey": [
+		"un voyage",
+		"un périple",
+		"un déplacement",
+		"un parcours",
+		"un itinéraire",
+		"un chemin",
+		"un circuit",
+		"un tour"
+		],
+		"legend": [
+		"une légende",
+		"une fable",
+		"une épopée",
+		"une saga",
+		"une tradition orale",
+		"une chronique",
+		"une parabole",
+		"une tradition"
+		],
+		"market": [
+		"un marché",
+		"un comptoir",
+		"un bazar",
+		"un étal",
+		"un pavillon",
+		"un point de vente",
+		"un espace de commerce",
+		"un lieu de négoce"
+		],
+		"plunder": [
+		"un pillage",
+		"un butin",
+		"un trésor",
+		"un coffre",
+		"un saccage",
+		"un raid",
+		"un pillage de guerre",
+		"un dépouillement",
+		"un rapt"
+		],
+		"quest": [
+		"une quête",
+		"une mission",
+		"une recherche",
+		"une aventure",
+		"une expédition",
+		"une chasse",
+		"une exploration",
+		"une errance"
+		],
+		"report": [
+		"un rapport",
+		"un récit",
+		"un compte rendu",
+		"un bulletin",
+		"un dossier",
+		"un enregistrement",
+		"un document",
+		"un témoignage"
+		],
+		"river": [
+		"un fleuve",
+		"un ruisseau",
+		"un cours d'eau",
+		"un torrent",
+		"un affluent",
+		"un canal",
+		"un chenal",
+		"un méandre",
+		"un delta"
+		],
+		"song": [
+		"un chant",
+		"un air",
+		"un refrain",
+		"un hymne",
+		"un cantique",
+		"un morceau",
+		"un récital",
+		"un accord"
+		],
+		"story": [
+		"un récit",
+		"un conte",
+		"un épisode",
+		"un feuilleton",
+		"un roman",
+		"un témoignage",
+		"un drame",
+		"un récit populaire"
+		],
+		"tool": [
+		"un râteau",
+		"un outil",
+		"un instrument",
+		"un outil du laboureur",
+		"un couteau de récolte",
+		"un sécateur",
+		"un arrosoir",
+		"un plantoir"
+		],
+		"vice": [
+		"des corruptions",
+		"des turpitudes",
+		"des dépravations",
+		"des obscénités",
+		"des immoralités",
+		"des débauches",
+		"des iniquités",
+		"des perversions"
+		],
+		"view": [
+		"le panorama",
+		"le paysage",
+		"l'horizon",
+		"le décor",
+		"le site",
+		"le point de vue",
+		"le spectacle",
+		"le panorama d'ensemble"
+		]
+	},	
+	"adj": {
+		"mgood": ["bon", "superbe", "excellent", "magnifique", "beau", "charmant", "intelligent", "gentil", "heureux", "courageux", "fort", "rapide", "grand", "petit", "doux", "lumineux", "sage", "aimable", "précieux", "joyeux"],
+		"fgood": ["bonne", "splendide", "excellente", "magnifique", "belle", "charmante", "intelligente", "gentille", "heureuse", "courageuse", "forte", "rapide", "grande", "petite", "douce", "lumineuse", "sage", "aimable", "précieuse", "joyeuse"],
+		"pgood": ["bons", "superbes", "excellents", "magnifiques", "beaux", "charmants", "intelligents", "gentils", "heureux", "courageux", "forts", "rapides", "grands", "petits", "doux", "lumineux", "sages", "aimables", "précieux", "joyeux"],
+		"mbad": ["mauvais", "terrible", "médiocre", "désagréable", "horrible", "déplorable", "lamentable", "inapproprié", "fâcheux", "dangereux"],
+		"fbad": ["mauvaise", "terrible", "médiocre", "désagréable", "horrible", "déplorable", "lamentable", "inappropriée", "fâcheuse", "dangereuse"],
+		"pbad": ["mauvais", "terribles", "médiocres", "désagréables", "horribles", "déplorables", "lamentables", "inappropriés", "fâcheux", "dangereux"],
+		"msorry": ["désolé", "navré", "peiné", "contrit", "affligé", "embarrassé", "regrettable"],
+		"fsorry": ["désolée", "navrée", "peinée", "contrite", "affligée", "embarrassée", "regrettable"],
+		"psorry": ["désolés", "navrés", "peinés", "contrits", "affligés", "embarrassés", "regrettables"],
+		"mtired": ["fatigué", "épuisé", "exténué", "lassé", "affaibli", "éreinté"],
+		"ftired": ["fatiguée", "épuisée", "exténuée", "lassée", "affaiblie", "éreintée"],
+		"ptired": ["fatigués", "épuisés", "exténués", "lassés", "affaiblis", "éreintés"],
+		"mwell": ["bien portant", "en bonne santé", "en forme", "vigoureux", "reposant"],
+		"fwell": ["bien portante", "en bonne santé", "en forme", "vigoureuse", "reposante"],
+		"pwell": ["bien portants", "en bonne santé", "en forme", "vigoureux", "reposants"],
+		"mhopeless": ["désespéré", "sans espoir", "anéanti", "défait", "résigné"],
+		"fhopeless": ["désespérée", "sans espoir", "anéantie", "défaite", "résignée"],
+		"phopeless": ["désespérés", "sans espoir", "anéantis", "défaits", "résignés"],
+		"mhappy": ["heureux", "joyeux", "content", "enthousiaste", "radieux", "épanoui"],
+		"fhappy": ["heureuse", "joyeuse", "contente", "enthousiaste", "radieuse", "épanouie"],
+		"phappy": ["heureux", "joyeux", "contents", "enthousiastes", "radieux", "épanouis"],
+		"msad": ["triste", "mélancolique", "déprimé", "désespéré", "abattu", "morose"],
+		"fsad": ["triste", "mélancolique", "déprimée", "désespérée", "abattue", "morose"],
+		"psad": ["tristes", "mélancoliques", "déprimés", "désespérés", "abattus", "moroses"],
+		"mangry": ["en colère", "furieux", "énervé", "véhément", "indigné", "irrité"],
+		"fangry": ["en colère", "furieuse", "énervée", "véhémente", "indignée", "irritée"],
+		"pangry": ["en colère", "furieux", "énervés", "véhéments", "indignés", "irrités"],
+		"mcalm": ["calme", "serein", "tranquille", "posé", "équilibré", "zen"],
+		"fcalm": ["calme", "sereine", "tranquille", "posée", "équilibrée", "zen"],
+		"pcalm": ["calmes", "sereins", "tranquilles", "posés", "équilibrés", "zen"],
+		"mnice": ["joli", "agréable", "charmant", "élégant", "raffiné", "attrayant", "plaisant"],
+		"fnice": ["jolie", "agréable", "charmante", "élégante", "raffinée", "attrayante", "plaisante"],
+		"pnice": ["jolis", "agréables", "charmants", "élégants", "raffinés", "attrayants", "plaisants"],
+		"mshoddy": ["minable", "médiocre", "de mauvaise qualité", "délabré", "usé", "mal conçu", "bancal"],
+		"fshoddy": ["minable", "médiocre", "de mauvaise qualité", "délabrée", "usée", "mal conçue", "bancale"],
+		"pshoddy": ["minables", "médiocres", "de mauvaise qualité", "délabrés", "usés", "mal conçus", "bancals"],
+		"mhopeful": ["plein d’espoir", "optimiste", "encourageant", "prometteur", "enjoué"],
+		"fhopeful": ["pleine d’espoir", "optimiste", "encourageante", "prometteuse", "enjouée"],
+		"phopeful": ["pleins d’espoir", "optimistes", "encourageants", "prometteurs", "enjoués"],
+		"mproud": ["fier", "digne", "noble", "honoré", "satisfait"],
+		"fproud": ["fière", "digne", "noble", "honorée", "satisfaite"],
+		"pproud": ["fiers", "dignes", "nobles", "honorés", "satisfaits"],
+		"mashamed": ["honteux", "contrit", "mortifié", "embarrassé", "déshonoré"],
+		"fashamed": ["honteuse", "contrite", "mortifiée", "embarrassée", "déshonorée"],
+		"pashamed": ["honteux", "contrits", "mortifiés", "embarrassés", "déshonorés"],
+		"msafe": ["sûr", "protégé", "fiable", "sécurisé", "à l’abri"],
+		"fsafe": ["sûre", "protégée", "fiable", "sécurisée", "à l’abri"],
+		"psafe": ["sûrs", "protégés", "fiables", "sécurisés", "à l’abri"],
+		"mperilous": ["périlleux", "dangereux", "risqué", "critique", "incertain"],
+		"fperilous": ["périlleuse", "dangereuse", "risquée", "critique", "incertaine"],
+		"pperilous": ["périlleux", "dangereux", "risqués", "critiques", "incertains"]
+	},	
+
+	"vb": {
+		"meet"	: ["rencontra", "tomba sur", "en vint à rencontrer", "vint à croiser", "croisa"],
+		"kill"	: ["tua","occit","vainquit","l'emporta sur","déculotta","exécuta", "trucida", "élimina", "massacra", "pourfendit", "assassina", "mit fin à"],
+		"go": ["alla vers", "se dirigea vers", "partit pour", "s’en alla vers", "quitta", "fit route vers", "prît le chemin de", "se mit en route pour"],
+		"reign": ["régnait sur", "gouvernait", "dirigeait", "avait tout pouvoir sur", "exerça son pouvoir sur", "était aux commandes de"],
+		"visit": ["visita", "fit un tour du côté de", "explora", "découvrit", "s’attarda sur", "fit halte à", "effectua une visite à"],
+		"healed": ["reçut des soins", "fût traité", "bénéficia d’une intervention médicale", "retrouva la santé", "se remit"],
+		"speak": ["prit la parole sur", "déclara", "annonça", "proclama", "discourut sur", "exprima son point de vue concernant", "articula ses pensées sur"],
+		"search": ["chercha", "rechercha", "fît des recherches sur", "investigua", "fît un effort pour retrouver", "explora les pistes autour de"],
+		"protect": ["protégea", "défendit", "assura la sécurité de", "mit tout en œuvre pour sauver", "fût un rempart pour", "assura la protection de"],
+		"order": ["donna l'ordre de", "commanda fermement de", "exigea que", "ordonna avec autorité", "proclama la nécessité de", "fit passer un décret pour"],
+		"build": ["bâtit", "érigea", "construisit", "édifia", "posa les fondations de", "aménagea", "modélisa"],
+		"fight": ["combattit", "affronta", "lutta contre", "se battit contre", "résista à", "riposta contre"],
+		"discover": ["découvrit", "mit au jour", "dévoila", "trouva", "révéla", "identifia"],
+		"celebrate": ["célébra", "fêta", "commémora", "honora", "magnifia", "organisa des festivités pour"],
+		"escape": ["s’échappa de", "s’enfuit de", "évita", "échappa à", "décampa loin de"],
+		"think": ["médita sur", "réfléchit à", "songea à", "analyza", "envisagea", "étudia"],
+		"die": ["mourut", "trouva la mort", "expira", "s’éteignit", "péri", "disparut dans l’oubli"],
+		"love": ["aimait", "adorait", "chérissait", "vénérait", "portait une affection sincère à", "était profondément attaché à"],
+		"hate": ["détestait", "haïssait", "exécrait", "avait en horreur", "repoussait", "méprisait profondément"],
+		"like": ["appréciait", "aimait bien", "se plaisait à côtoyer", "avait de l’estime pour", "trouvait agréable", "prenait du plaisir à interagir avec"]
+	},
+
+	"adv": {
+		"fast": ["rapidement", "à toute vitesse", "vite", "à pleine allure", "précipitamment"],
+		"slow": ["lentement", "sans se presser", "avec une grande lenteur", "à un rythme mesuré", "paisiblement"],
+		"carefully": ["avec soin", "prudemment", "minutieusement", "avec précaution", "attentivement"],
+		"quickly": ["promptement", "rapidement", "en un éclair", "sans perdre de temps", "prestement"],
+		"quietly": ["silencieusement", "discrètement", "à voix basse", "calmement", "sans bruit"],
+		"loudly": ["bruyamment", "à pleine voix", "avec fracas", "à haute voix", "en criant"],
+		"happily": ["joyeusement", "avec bonheur", "gaiement", "de manière enjouée", "tout sourire"],
+		"sadly": ["tristement", "avec mélancolie", "de manière déprimée", "d’un air morose", "à contrecœur"],
+		"angrily": ["furieusement", "avec colère", "de manière véhémente", "avec rage", "en s’emportant"],
+		"calmly": ["calmement", "sereinement", "avec quiétude", "en toute tranquillité", "posément"],
+		"frequently": ["fréquemment", "souvent", "de manière récurrente", "à plusieurs reprises", "régulièrement"],
+		"rarely": ["rarement", "peu souvent", "à de rares occasions", "exceptionnellement", "sporadiquement"],
+		"always": ["toujours", "sans exception", "constamment", "invariablement", "à tout moment"],
+		"never": ["jamais", "en aucun cas", "sous aucune condition", "à aucun moment", "pas une seule fois"],
+		"here": ["ici", "en ce lieu", "à cet endroit précis", "sur place", "juste là"],
+		"there": ["là-bas", "à cet endroit", "au loin", "vers ce lieu", "non loin de là"],
+		"now": ["maintenant", "actuellement", "à l’instant", "sans délai", "dès à présent"],
+		"then": ["alors", "à ce moment-là", "par la suite", "dans ces circonstances", "à cette époque"],
+		"soon": ["bientôt", "dans peu de temps", "sous peu", "à brève échéance", "rapidement après"],
+		"later": ["plus tard", "ultérieurement", "dans un futur proche", "par la suite", "avec un délai"],
+		"outside": ["dehors", "à l’extérieur", "en plein air", "hors de ce lieu", "dans les environs"],
+		"inside": ["dedans", "à l’intérieur", "dans ce lieu", "en espace clos", "dans ces murs"]
+	}
+	
+}
